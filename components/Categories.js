@@ -4,8 +4,6 @@ import CategoryCard from './CategoryCard';
 
 
 
-
-
 const Categories = () => {
   return (
     <View>
@@ -14,13 +12,15 @@ const Categories = () => {
             showsHorizontalScrollIndicator={false} 
             contentContainerStyle={{ 
                 paddingHorizontal: 15,
-                paddingTop: 10,
-                flexDirection: 'row',
             }} >
-            <CategoryCard imgUrl={'../assets/images/shosan_acodemia_logo.png'} title='Items 1' />
-            <CategoryCard imgUrl={'../assets/images/shosan_acodemia_logo.png'} title='Items 2' />
-            <CategoryCard imgUrl={'../assets/images/shosan_acodemia_logo.png'} title='Items 3' />
-            <CategoryCard imgUrl={'../assets/images/shosan_acodemia_logo.png'} title='Items 4' />
+            <CategoryCard title='Items 1'/>
+            <CategoryCard title='Items 2'/>
+            <CategoryCard title='Items 3'/>
+            <CategoryCard title='Items 4'/>
+            <CategoryCard title='Items 5'/>
+            <CategoryCard title='Items 6'/>
+            <CategoryCard title='Items 7'/>
+            <CategoryCard title='Items 8'/>
         </ScrollView>
     </View>
   )
